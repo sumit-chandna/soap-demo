@@ -4,4 +4,7 @@
 	<endpoint name="PersonServiceImpl"
 		implementation="org.skcorg.soap.endpoint.impl.PersonServiceImpl"
 		url-pattern="/personWS" />
+	<endpoint name="ProductCatalogImpl"
+		implementation="org.skcorg.soap.endpoint.impl.ProductCatalogImpl"
+		url-pattern="/ProductCatalogWS" />
 </endpoints> 
