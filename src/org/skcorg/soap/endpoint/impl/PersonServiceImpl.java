@@ -9,7 +9,7 @@ import javax.jws.WebService;
 import org.skcorg.soap.Person;
 import org.skcorg.soap.endpoint.PersonService;
 
-@WebService
+@WebService(name = "PersonData", portName = "PersonDataPort", serviceName = "PersonDataService", endpointInterface = "org.skcorg.soap.endpoint.PersonService")
 public class PersonServiceImpl implements PersonService {
 
 	private static Map<Integer, Person> persons = new HashMap<Integer, Person>();

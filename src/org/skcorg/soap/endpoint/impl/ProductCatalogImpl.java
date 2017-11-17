@@ -7,7 +7,7 @@ import javax.jws.WebService;
 
 import org.skcorg.soap.endpoint.ProductCatalog;
 
-@WebService
+@WebService(endpointInterface = "org.skcorg.soap.endpoint.ProductCatalog")
 public class ProductCatalogImpl implements ProductCatalog {
 	@Override
 	public List<String> getProductCategories() {
